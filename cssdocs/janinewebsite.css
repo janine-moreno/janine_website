@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/*MAIN STYLES*/
+*{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+}
+
+/*NAVIGATION BAR*/
+#navbar {
+	z-index: 100;
+	position: fixed;
+	left: 0px;
+	height: 100%;
+	width: 100px;
+	padding: 0px;
+	background-color: #5784BA;
+}
+
+#menu{
+	position: fixed;
+	top: 30px;
+	left: 31px;
+}
+
+#home{
+	position: fixed;
+	top: 175px;
+	left: 26px;
+}
+
+#events{
+	position: fixed;
+	top: 275px;
+	left: 27px;
+}
+
+#hof{
+	position: fixed;
+	top: 375px;
+	left: 28px;
+}
+
+#info{
+	position: fixed;
+	top: 475px;
+	left: 26px;
+}
+
+/*NAVIGATION IMAGES*/
+
+#menub{
+	background: url('../media/imgsprite.png') no-repeat -237px -29px;
+	width: 38px;
+	height: 31px;
+}
+
+#homeb{
+	background: url('../media/imgsprite.png') no-repeat -10px -20px;
+	width: 46px;
+	height: 46px;
+}
+
+#eventsb{
+	background: url('../media/imgsprite.png') no-repeat -121px -20px;
+	width: 43px;
+	height: 45px;
+}
+
+#hofb{
+	background: url('../media/imgsprite.png') no-repeat -178px -24px;
+	width: 41px;
+	height: 44px;
+}
+
+#infob{
+	background: url('../media/imgsprite.png') no-repeat -62px -18px;
+	width: 46px;
+	height: 48px;
+}
+
+/*NAVIGATION IMAGES ON HOVER*/
+
+#menub:hover{
+	background: url('../media/imgsprite.png') no-repeat -236px -88px;
+	width: 38px;
+	height: 31px;
+}
+
+#homeb:hover{
+	background: url('../media/imgsprite.png') no-repeat -9px -80px;
+	width: 46px;
+	height: 45px;
+}
+
+#eventsb:hover{
+	background: url('../media/imgsprite.png') no-repeat -121px -80px;
+	width: 42px;
+	height: 44px;
+}
+
+#hofb:hover{
+	background: url('../media/imgsprite.png') no-repeat -177px -83px;
+	width: 42px;
+	height: 45px;
+}
+
+#infob:hover{
+	background: url('../media/imgsprite.png') no-repeat -61px -77px;
+	width: 47px;
+	height: 48px;
+}
+
+/*HEADER*/
+#headerz {
+	z-index: 99;
+	position: fixed;
+	top: 0px;
+	height: 60px;
+	width: 100%;
+	padding: 20px;
+	background-color: #9AC8EB;
+}
+
+#webnamehead{
+	font-weight: bold;
+	position: fixed;
+	top: 20px;
+	left: 125px;
+	font-size: 46px;
+	letter-spacing: 4px;
+}
+
+/*CONTENTS*/
+#contents {
+	position: absolute;
+	top: 140px;
+	left: 140px;
+	font-size: 25px;
+}
+
+/*EVENTS PAGE*/
+#calendar p {
+	font-size: 12px;
+	font-style: italic;
+}
+
+/*HALL OF FAME PAGE*/
+
+div.hofimages {
+	width: auto;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 0px 10px 25px 10px;
+	float: left;
+}
+
+div.imgdesc {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
