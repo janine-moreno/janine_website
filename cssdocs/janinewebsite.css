@@ -26,25 +26,25 @@
 
 #home{
 	position: fixed;
-	top: 175px;
+	top: 23%;
 	left: 26px;
 }
 
 #events{
 	position: fixed;
-	top: 275px;
+	top: 43%;
 	left: 27px;
 }
 
 #hof{
 	position: fixed;
-	top: 375px;
+	top: 63%;
 	left: 28px;
 }
 
 #info{
 	position: fixed;
-	top: 475px;
+	top: 83%;
 	left: 26px;
 }
 
